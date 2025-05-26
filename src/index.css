@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* For WebKit browsers (Chrome, Safari, Edge) */
+::-webkit-scrollbar {
+  width: 4px; /* You can change this to your desired width */
+}
+
+::-webkit-scrollbar-track {
+  background: #1e1e1e; /* Optional: scrollbar track color */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #fff; /* Scroll thumb color (Tailwind green-400) */
+  border-radius: 4px;
+}
